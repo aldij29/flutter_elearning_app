@@ -50,7 +50,7 @@ class CourseItemTile extends StatelessWidget {
                     topRight: Radius.circular(8)),
                 color: kSecondaryColor,
                 image: DecorationImage(
-                    image: AssetImage(imageUrl), fit: BoxFit.contain),
+                    image: AssetImage(imageUrl), fit: BoxFit.cover),
               ),
             ),
             Expanded(

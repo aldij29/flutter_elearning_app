@@ -11,3 +11,7 @@ part './common_widgets/custom_navigation_bottom_item.dart';
 part '../pages/home_page/widgets/custom_category_tile_item.dart';
 part '../pages/home_page/widgets/course_item_tile.dart';
 part '../pages/my_course_page/widgets/my_course_item_tile.dart';
+part '../pages/profile_page/widgets/custom_profile_tab_item.dart';
+part '../pages/profile_page/widgets/elearning_menu_item.dart';
+part '../pages/profile_page/widgets/profile_menu_item.dart';
+part './common_widgets/custom_menu_item_profile.dart';

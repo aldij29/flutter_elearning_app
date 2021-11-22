@@ -24,35 +24,35 @@ class MyCoursePage extends StatelessWidget {
         child: Column(
           children: [
             MyCourseItemTile(
-              imageUrl: 'assets/images/online_courses.png',
+              imageUrl: 'assets/images/image1.jpg',
               courseName: 'Belajar Berhitung dengan tidak Cepat',
               mentorName: 'Shilva Yowes',
               priceCourse: 0,
               ratingCourse: 3.5,
             ),
             MyCourseItemTile(
-              imageUrl: 'assets/images/online_courses.png',
+              imageUrl: 'assets/images/image4.jpg',
               courseName: 'Belajar Berhitung dengan tidak Cepat',
               mentorName: 'Shilva Yowes',
               priceCourse: 0,
               ratingCourse: 3.5,
             ),
             MyCourseItemTile(
-              imageUrl: 'assets/images/online_courses.png',
+              imageUrl: 'assets/images/image6.jpg',
               courseName: 'Belajar Berhitung dengan tidak Cepat',
               mentorName: 'Shilva Yowes',
               priceCourse: 0,
               ratingCourse: 3.5,
             ),
             MyCourseItemTile(
-              imageUrl: 'assets/images/online_courses.png',
+              imageUrl: 'assets/images/image5.jpg',
               courseName: 'Belajar Berhitung dengan tidak Cepat',
               mentorName: 'Shilva Yowes',
               priceCourse: 0,
               ratingCourse: 3.5,
             ),
             MyCourseItemTile(
-              imageUrl: 'assets/images/online_courses.png',
+              imageUrl: 'assets/images/image3.jpg',
               courseName: 'Belajar Berhitung dengan tidak Cepat',
               mentorName: 'Shilva Yowes',
               priceCourse: 0,
