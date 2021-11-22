@@ -48,7 +48,7 @@ class _ProfilePageState extends State<ProfilePage> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           CustomProfileTabItem(indexTab: 0, tabItem: 'Profile'),
-          CustomProfileTabItem(indexTab: 1, tabItem: 'Ingenio')
+          CustomProfileTabItem(indexTab: 1, tabItem: 'E-Learning')
         ],
       ),
     );
