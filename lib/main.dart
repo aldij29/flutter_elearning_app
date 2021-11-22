@@ -14,7 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      routes: {
+        '/': (context) => SplashPage(),
+        'sign-in-page': (context) => SignInPage(),
+        'sign-up-page': (context) => SignUpPage()
+      },
     );
   }
 }
