@@ -25,3 +25,4 @@ part './profile_page/other_pages/security_page.dart';
 part './profile_page/other_pages/term_conditions.dart';
 part './detail_course_page/course_detail_page.dart';
 part 'illustration_page.dart';
+part './learn_course_page/learn_course_page.dart';

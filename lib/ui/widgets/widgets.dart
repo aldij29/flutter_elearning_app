@@ -17,3 +17,4 @@ part '../pages/profile_page/widgets/profile_menu_item.dart';
 part './common_widgets/custom_menu_item_profile.dart';
 part '../pages/detail_course_page/widgets/custom_content_item.dart';
 part '../pages/detail_course_page/widgets/custom_course_detail_tab_item.dart';
+part '../pages/learn_course_page/widgets/learn_content_list_item.dart';
