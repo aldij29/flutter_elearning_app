@@ -20,7 +20,7 @@ class CourseItemTile extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.push(context,
-            MaterialPageRoute(builder: (context) => MainPage()));
+            MaterialPageRoute(builder: (context) => CourseDetailPage()));
       },
       child: Container(
         width: double.infinity,

@@ -23,3 +23,5 @@ part './profile_page/other_pages/payments_page.dart';
 part './profile_page/other_pages/privacy_policy_page.dart';
 part './profile_page/other_pages/security_page.dart';
 part './profile_page/other_pages/term_conditions.dart';
+part './detail_course_page/course_detail_page.dart';
+part 'illustration_page.dart';

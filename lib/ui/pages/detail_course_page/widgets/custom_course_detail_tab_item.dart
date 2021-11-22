@@ -1,17 +1,17 @@
 part of '../../../widgets/widgets.dart';
 
-class CustomProfileTabItem extends StatelessWidget {
-  final int indexTab;
+class CustomCourseDetailTabItem extends StatelessWidget {
+  final int index;
   final String tabItem;
-  const CustomProfileTabItem(
-      {Key? key, required this.indexTab, required this.tabItem})
+  const CustomCourseDetailTabItem(
+      {Key? key, required this.index, required this.tabItem})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        context.read<TabCubit>().setTab(indexTab);
+        context.read<PageCubit>().setPage(index);
       },
       child: Column(
         children: [
@@ -20,7 +20,7 @@ class CustomProfileTabItem extends StatelessWidget {
             style: blackTextStyle.copyWith(
               fontSize: 16,
               fontWeight: medium,
-              color: context.read<TabCubit>().state == indexTab
+              color: context.read<PageCubit>().state == index
                   ? kBlackColor
                   : kGreyColor,
             ),
@@ -32,7 +32,7 @@ class CustomProfileTabItem extends StatelessWidget {
             height: 3,
             width: 40,
             decoration: BoxDecoration(
-                color: context.read<TabCubit>().state == indexTab
+                color: context.read<PageCubit>().state == index
                     ? kSecondaryColor
                     : Colors.transparent,
                 borderRadius: BorderRadius.circular(20)),

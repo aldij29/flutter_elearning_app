@@ -15,3 +15,5 @@ part '../pages/profile_page/widgets/custom_profile_tab_item.dart';
 part '../pages/profile_page/widgets/elearning_menu_item.dart';
 part '../pages/profile_page/widgets/profile_menu_item.dart';
 part './common_widgets/custom_menu_item_profile.dart';
+part '../pages/detail_course_page/widgets/custom_content_item.dart';
+part '../pages/detail_course_page/widgets/custom_course_detail_tab_item.dart';

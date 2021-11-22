@@ -29,6 +29,25 @@ class MyApp extends StatelessWidget {
           '/sign-in-page': (context) => SignInPage(),
           '/sign-up-page': (context) => SignUpPage(),
           '/main-page': (context) => MainPage(),
+          '/illustration-register-page': (context) => IllustrationPage(
+                imageUrl: 'assets/images/image_success_register.png',
+                subTitle1: 'Yeay! Completed',
+                subTitle2: 'Now you are ready to\nlearn something new everyday',
+                textButton1: 'Find Course',
+              ),
+          '/illustration-course-page': (context) => IllustrationPage(
+                imageUrl: 'assets/images/image_join_course.png',
+                subTitle1: 'You’ve Joined The Course',
+                subTitle2: 'now you have started to \nlearn something new',
+                textButton1: 'Start Course',
+                textButton2: 'Join Other Course',
+              ),
+          '/illustration-empty-course-page': (context) => IllustrationPage(
+                imageUrl: 'assets/images/image_empty_course.png',
+                subTitle1: 'Oops! Your Course is Empty',
+                subTitle2: 'Seems like you have not\ntaken any courses yet',
+                textButton1: 'Find Course',
+              ),
         },
       ),
     );
