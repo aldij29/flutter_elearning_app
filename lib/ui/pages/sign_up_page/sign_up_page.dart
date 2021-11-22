@@ -51,7 +51,7 @@ class SignUpPage extends StatelessWidget {
           width: double.infinity,
           child: TextButton(
             style: TextButton.styleFrom(
-              backgroundColor: kPrimaryColor,
+              backgroundColor: kSecondaryColor,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18)),
             ),
@@ -94,7 +94,7 @@ class SignUpPage extends StatelessWidget {
             },
             child: Text(
               'Sign In',
-              style: blueTextStyle.copyWith(fontSize: 12, fontWeight: medium),
+              style: blueTextStyle.copyWith(fontSize: 12, fontWeight: medium, color: kSecondaryColor),
             ),
           ),
         )

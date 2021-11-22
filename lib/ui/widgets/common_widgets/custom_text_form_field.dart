@@ -19,6 +19,7 @@ class CustomTextFormField extends StatelessWidget {
                 height: 6,
               ),
               TextFormField(
+                style: blackTextStyle.copyWith(fontSize: 14, fontWeight: regular),
                 controller: controller,
                 obscureText: obsecureText,
                 cursorColor: kBlackColor,

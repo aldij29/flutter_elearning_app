@@ -9,6 +9,15 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   @override
+  void initState() {
+    // TODO: implement initState
+    Timer(Duration(seconds: 3), () {
+      Navigator.pushNamed(context, '/sign-up-page');
+    });
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kWhiteColor,
@@ -20,13 +29,17 @@ class _SplashPageState extends State<SplashPage> {
             Container(
               height: 140,
               decoration: BoxDecoration(
-                  image:
-                      DecorationImage(image: AssetImage('assets/images/elearning_logo.png'), fit: BoxFit.contain)),
+                  image: DecorationImage(
+                      image: AssetImage('assets/images/elearning_logo.png'),
+                      fit: BoxFit.contain)),
             ),
             SizedBox(
               height: 20,
             ),
-            Text('E-Learning App', style: titleTextStyle.copyWith(fontSize: 24),)
+            Text(
+              'E-Learning App',
+              style: titleTextStyle.copyWith(fontSize: 24),
+            )
           ],
         ),
       ),

@@ -48,12 +48,12 @@ class _SignInPageState extends State<SignInPage> {
           width: double.infinity,
           child: TextButton(
             style: TextButton.styleFrom(
-              backgroundColor: kPrimaryColor,
+              backgroundColor: kSecondaryColor,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18)),
             ),
             onPressed: () {
-              Navigator.pushNamed(context, '');
+              Navigator.pushNamed(context, '/main-page');
             },
             child: Text(
               'Sign In',
@@ -78,7 +78,7 @@ class _SignInPageState extends State<SignInPage> {
             },
             child: Text(
               'Create New Account',
-              style: whiteTextStyle.copyWith(fontSize: 18, fontWeight: medium),
+              style: whiteTextStyle.copyWith(fontSize: 18, fontWeight: medium,),
             ),
           ),
         );
@@ -114,7 +114,7 @@ class _SignInPageState extends State<SignInPage> {
               },
               child: Text(
                 'Sign Up',
-                style: blueTextStyle.copyWith(fontSize: 12, fontWeight: medium),
+                style: blueTextStyle.copyWith(fontSize: 12, fontWeight: medium, color: kSecondaryColor),
               ),
             ),
           )

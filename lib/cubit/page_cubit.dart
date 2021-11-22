@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+part of 'cubits.dart';
 
 class PageCubit extends Cubit<int> {
   PageCubit() : super(0);
